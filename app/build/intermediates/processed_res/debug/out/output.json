@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.mahyco.time.timemanagement",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 26,
+        "versionName": "23.2.1",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "resources-debug.ap_",
+      "properties": {
+        "packageId": "com.mahyco.time.timemanagement",
+        "split": "",
+        "minSdkVersion": "19"
+      }
+    }
+  ]
+}

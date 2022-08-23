@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="520dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/textName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Terms and Conditions"/>
+                <TextView
+                    android:id="@+id/textObs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Black"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:layout_below="@+id/textName"
+                    android:text="This mobile application (“App”) is owned and operated by MAHYCO Private Limited (“Company”).  Through this App, the Company offers and provides you services for recording your daily attendance, considering the nature of your service which requires out-location activities for the Company.  By downloading and registering, you grant the Company your permission to record your attendance and to provide you an opportunity to view your daily attendance register through the App.
+\n\nPlease read these terms and conditions carefully, as by accessing this App you are agreeing to abide by the all of the conditions and the Privacy Policy set out below.  The Company reserves the right to modify, alter or update these terms and conditions at any time and you agree to be bound by such modifications, alterations and updates.  You agree that the Company shall not be liable to you or any third party for any modification, suspension or discontinuance of our App or for any service, content, feature or product offered through our website. If you do not agree to these terms and conditions, please discontinue using this App immediately.
+Warranty and Liability Disclaimer.\n\n
+This App and the content herein or any information which may be provided through this App by the Company is provided in good faith on an as is, as available basis.  The Company makes no representation or warranty whether express or implied in respect of the App and/or the information, Content (as defined below), materials products etc. which are included/ mentioned herein on the App.  Specifically, the Company does not inter alia make any warranties as to accuracy or completeness, quality, merchantability, fitness for a particular purpose, non-infringement of any third party rights, including intellectual property rights, in respect of any of the information, content, materials products available or mentioned on the App.
+The information, recommendations / suggestions provided on or through this App are of a general nature and should not be considered as a substitute for detailed advice from experts.  While, the Company uses reasonable endeavours to ensure that the aforesaid information will be accurate and helpful, the use and reliance on the information provided on or through the App will be at the sole risk of the user.
+The Company and/or any of Company’s directors, officers, employees, agents shall in no event be liable for and hereby expressly exclude liability for any loss, damage or injury (including any special, exemplary, indirect, incidental, consequential damages, costs or associated legal fees) arising whether directly or indirectly, from the use of this App including without limitation loss or damage to any crops, loss of data, revenue or profits.
+\n\nOwnership of Content\n\n
+The App is owned by the Company.  Unless otherwise indicated, all content on this App, including illustrations, photographs, products, images, artwork, designs, text, graphics, logos, button icons, images, audio and video clips and software (collectively, content) appearing on this App are owned or controlled by and proprietary to  the Company and/or its subsidiaries, affiliates and content suppliers and are protected by Indian design, trademark, trade dress, copyright and other intellectual property laws.  The Content of this App is intended solely for personal, non-commercial use by the users of this App.  Users must not copy, modify, reproduce, publish, use or exploit in any way the Content or any part thereof, or otherwise modify, obscure or delete any copyright or other propriety notices on this App without the Company’s prior written consent.  No right, title or interest in any materials or software, on this App is transferred to you from your use of this App.
+Third Party Content and Intellectual Property\n\n
+The Company respects the copyright of others, and requires that the users of the App, or the services or features made available on or through the App, do the same.  The Company has no intention of any kind to infringe copyright and where applicable the owners are given due credit through acknowledgement and/or written credits. The Company is not responsible for the copyright of any content that may be used on the App which may be uploaded by the users or freely available in the public domain e.g. content available on the Internet with no source or copyright information.
+If you believe that any content appearing on the App infringes on your copyright, you must contact us immediately by emailing us at “info@mahyco.com” with all of the following information and the necessary action in accordance with applicable law will be taken as soon as possible.
+your legal name, address, telephone number, and e-mail address;\n\n
+a description of the copyrighted work that you claim has been infringed;
+the exact URL or a description of each place where alleged infringing material is located or, if multiple copyrighted works are infringed, a representative list of such works including the URL or description of each location;
+a statement by you that you have a good faith belief that the disputed use has not been authorised by you, your agent, or the law;
+your electronic or physical signature or the electronic or physical signature of the person authorised to act on your behalf; and
+a statement by you made under penalty of perjury, that the information in your notice is accurate, that you are the copyright owner or authorised to act on the copyright owner’s behalf.
+Certain trademarks which are not owned by the Company may be featured on the App for instance in the context of providing information in relation to the suitable fertilizers or any other products. Such trademarks are the property of their respective third party owners, and the use of trademarks, logos, or brand names in the App are for identification purposes only, and does not imply any endorsement by the Company of the trademark owner, or vice-versa, or that such trademark owner has authorized the Company to promote its products, services under the trademark or to use such a trademark.
+\n\nUser Content:\n\n
+In certain sections of the App, users may be allowed to post images, queries, messages and other information or content.
+Furthermore, by using this App, you agree not to post, upload, transmit, distribute, store, create or otherwise publish through the App any of the following:
+A.User content that is unlawful, blasphemous, paedophilic, racially or ethnically 	objectionable, libellous, defamatory, obscene, pornographic, indecent, lewd, suggestive, harassing, threatening, invasive of privacy or publicity rights, abusive, inflammatory, fraudulent, otherwise objectionable or which threatens relationships with our employees, partners, customers, suppliers or licensors, relates to or encourages money laundering, gambling or otherwise unlawful in any manner;
+B.User content that may infringe any patent, trademark, trade secret, copyright or other intellectual or proprietary right of any party.  By posting any User content, you represent and warrant that you have the lawful right to distribute and produce such User content;
+C.User content that impersonates any person or entity or otherwise misrepresents your identity or affiliation with another person or entity;
+D.Spam, direct marketing communications or any unsolicited advertising, promotional materials or other forms of solicitation or commercial content;
+E.User Content that constitutes, encourages or provides instructions for a criminal offense, violates the rights of any party or that creates liability or violates any applicable local, state, national or international law;
+F.Software viruses, spyware, Trojan horses, easter eggs or any other destructive files, computer codes or programs designed to interrupt destroy or limit the functionality of any computer resource;
+G.User content that, in the sole judgment of the Company, is objectionable, restricts or inhibits any other person from using or enjoying the Sites or which damages the image or rights of the Company, other users or third parties;
+H.User content which deceives or misleads the addressee about the origin of the messages or communicates any information which is grossly offensive or menacing in nature; and
+I.User content that threatens the unity, integrity, defence, security or sovereignty of India, friendly relations with foreign states, public order, causes incitement to the commission of any cognizable offence or prevents investigation of any offence or is insulting to any 	other nation.
+If you become aware of User content that you believe violates these Terms of Use, you may report such violation by sending an email to “info@mahyco.com”. Enforcement of these Terms of Use, however, is solely in our discretion and absence of enforcement in some instances does not constitute a waiver of our right to enforce the Terms of Use in other instances.
+\n\nVirus protection:\n\n
+While the Company makes reasonable efforts to ensure that the App is free from viruses and other malware, users are requested to take appropriate measures against viruses and other malware and malicious objects.  Except to the extent as provided by the applicable laws, the Company disclaims all liability (whether direct, indirect, consequential or otherwise) with respect to any such inadvertent transmission of viruses and malware resulting from use of the App.
+Indemnification
+You agree to defend, indemnify and hold the Company harmless from and against any and all actions claims, damages, costs and expenses, including attorney's fees, arising from or related to any content that you may upload on the App, your access to, or inability to access this App or from your reliance upon any information contained on this App.
+Termination
+The Company may immediately and at its sole discretion, without notice, deny you access to this App if, in the Company's opinion, you fail to comply with any term or provision of the terms and conditions set forth herein.
+Applicable Law
+This website, including the Content and information contained herein, shall be governed by the laws of the Republic of India and the courts of Mumbai, India shall retain exclusive jurisdiction to entertain any proceedings in relation to any disputes arising out of the same.  As such, the laws of India shall govern the disclaimer, legal notices, privacy policy, order form and any transaction completed using this website.
+PRIVACY POLICY
+At the Company we are committed to respecting the privacy rights of our customers and all uses of our App.
+We respect and safeguard the personally identifiable information [Personal Information] which we may receive and collect from you on our App and in the course of our other interactions online.
+Information collected:\n\n
+The Company may collect the following types of Personal Information[ Please confirm if any other categories of “Personal information” may be collected from the user while using the mobile application. ] from you when you register for any of the services offered via the website / App or otherwise voluntarily provide such information.
+\na)Name (including first name and last name)\n
+b)Residence address\n
+c)E-mail address\n
+d)Phone number (mobile number / landline number)\n
+e)Age\n
+f)Aadhar Card or any other public document of identity.\n
+g)Measurement of land through App.\n
+h)Any document of public record about the area of agricultural land possessed/ owned by the user.\n\n
+
+Information collected while daily signing-in and signing-out the App
+\n\n
+(a)Date of sign-in and sign-out\n
+(b)Time of sign-in and sign-out\n
+(c)Location of sign-in and sign-out and recording your travel while on work.\n
+Use and Disclosure of Personal Information\n
+The Company may use Personal Information and other information received and collected from you to provide the services you have requested, including providing information/ advice/ recommendations in the context of your query and to contact you upon your request and when otherwise necessary.  The Company may share such Personal information with third parties such as independent experts if necessary to render the services requested by you.  The Company may also use Personal Information for auditing, research and analysis, and to operate and improve our services.  In certain circumstances, we may share aggregated non-personal information with third parties.  When we use third parties to assist us in processing your Personal Information, we require that they comply with our Privacy Policy and any other appropriate confidentiality and security measures.  The Company may also share or disclose such information, including sensitive personal data or information with Government agencies  in limited circumstances, including when complying with legal process, for verification of identity, or for preventing, detecting, investigating and for prosecution and punishment of incidents including cyber incidents, fraud or imminent harm, and ensuring the security of our network and services.
+Confidentiality and Security\n\n
+We will keep confidential and protect your Personal Information except where disclosure is required or permitted by law.
+We limit access to Personal Information to employees who we believe reasonably need to come into contact with that information to provide products or services to you or in order to do their jobs.
+We will take reasonable steps to ensure that any third-party service provide who may have access to the Personal Information are obligated to protect Personal Information on our behalf through confidentiality agreements and otherwise.
+The Company adopts reasonable security practices and procedures to protect information from unauthorized access, damage, use, modification, disclosure or impairment as required by applicable privacy laws.
+Accuracy
+To the extent that you do provide us with Personal Information, we wish to maintain accurate and current Personal Information.  Should you need to update or correct any Personal Information provided by you on the App, please contact us at the following e-mail address “info@mahyco.com” and we will make reasonable efforts to incorporate the changes in your Personal Information that we hold as soon as practicable.
+Grievances and Complaints
+In case of any grievances or complaints in relation to the processing of your information by the Company, the same may be addressed to the Grievance Officer at the following address:\n\n
+MAHYCO Private Limited\n
+Jalna – Aurangabad Road,\n
+Post Box no. 76, Dawalwadi,\n
+Jalna-431203\n
+Tel. No: 02482-262471 to 262475 / 394700\n
+Fax no.: 02482-26002\n
+
+"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

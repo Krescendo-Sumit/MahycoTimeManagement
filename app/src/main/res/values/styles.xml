@@ -1,0 +1,188 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:fontFamily">raleway_medium_9</item>  <!-- mahendra -->
+        <!--<item name="android:alertDialogTheme">@style/SpinnerDialog</item>-->
+
+
+
+
+
+
+
+    </style>
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColorHint">@color/Black</item>
+    </style>
+
+    <style name="TrollyTheme"  parent="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColorHint">@color/grey</item>
+    </style>
+
+    <style name="SpinnerDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:background">#38ef7d</item>
+    </style>
+
+    <style name="EditTextHint" parent="TextAppearance.AppCompat">
+        <item name="colorAccent">@android:color/black</item>
+        <item name="android:textColorHint">@color/Black</item>
+        <item name="colorControlNormal">@color/Black</item>
+        <item name="android:textSize">12sp</item>
+
+        <item name="colorControlHighlight">@color/Black</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:textSize">12sp</item>
+
+    </style>
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TextAppearance.Widget.ActionBar.Title"
+        parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+
+    </style>
+
+    <style name="AppTheme1" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <!-- other activity and action bar styles here -->
+    </style>
+    <!-- style for the action bar backgrounds -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        <item name="titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        <item name="subtitleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="Dialog1" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textColorHint">@color/Black</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="customRatingBar"
+        parent="android:style/Widget.Material.RatingBar">
+    </style>
+
+    <style name="Button">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ImgButton">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!---->
+    <style name="Spinner" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:textSize">
+            13sp
+        </item>
+        <item name="android:textColor">
+            @color/Black
+        </item>
+        <item name="android:fontFamily">@font/raleway_medium_9</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+    <!---->
+
+
+    <!--</resources>
+
+
+
+    OLD  Theme <resources>  -->
+
+
+
+
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+    </style>
+
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+
+
+
+
+    <!-- new style added  -->
+    <style name="style_mediumboldtext">
+        <item name="android:textSize">
+            13sp
+        </item>
+        <item name="android:textColor">
+            @color/Black
+        </item>
+        <item name="android:fontFamily">@font/raleway_medium_9</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+
+</resources>

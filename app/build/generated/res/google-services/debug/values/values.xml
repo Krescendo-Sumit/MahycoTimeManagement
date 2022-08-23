@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">501326858994-7gg4u0q0v2cfgnkodm8g5ts1qh5prjj8.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">501326858994</string>
+    <string name="google_api_key" translatable="false">AIzaSyAuFAcZP6DjpgcWFi-FLBviXgoG1M3QcMQ</string>
+    <string name="google_app_id" translatable="false">1:501326858994:android:8cd561f8a6f5801c0c9e6b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAuFAcZP6DjpgcWFi-FLBviXgoG1M3QcMQ</string>
+    <string name="google_storage_bucket" translatable="false">time-management-243706.appspot.com</string>
+    <string name="project_id" translatable="false">time-management-243706</string>
+</resources>

@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+android {
+    /*signingConfigs {
+        release {
+            storeFile file('/Users/akash/Desktop/Time Managment/mahycoPunchkey (2).jks')
+            storePassword 'android@mahyco123' // Use  password is =  mahyco
+            keyAlias = 'mahyco'
+            keyPassword 'mahyco'
+        }
+    }*/
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.mahyco.time.timemanagement"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 26 /*Updated on 02 Jul 2022 */
+        versionName "23.2.1" /*Updated on 02 Jun 2022*/
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true   // Obfuscate and minify codes
+            shrinkResources true // Remove unused resources
+            useProguard true     // Remove unused codes
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    android {
+        lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+        }
+    }
+    android {
+        aaptOptions.cruncherEnabled = false
+        aaptOptions.useNewCruncher = false
+    }
+    android {
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+}
+
+dependencies {
+
+    implementation project(path: ':feedbacklib')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+   // implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    implementation "com.google.android.gms:play-services-maps:17.0.1"
+    implementation 'org.jsoup:jsoup:1.11.3'
+
+    implementation 'androidx.annotation:annotation:1.1.0'
+
+    // Glide v4 uses this new annotation processor -- see https://bumptech.github.io/glide/doc/generatedapi.html
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+// Import the Firebase BoM
+   // implementation platform('com.google.firebase:firebase-bom:28.1.0')
+
+    // Add the dependency for the Firebase SDK for Google Analytics
+    // When using the BoM, don't specify versions in Firebase dependencies
+   // implementation 'com.google.firebase:firebase-analytics'
+
+    // Recommended: Add the Firebase SDK for Google Analytics.
+   // implementation 'com.google.firebase:firebase-analytics:19.0.0'
+
+    // Add the Firebase Crashlytics SDK.
+    implementation 'com.google.firebase:firebase-crashlytics:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+
+
+
+}
+
+apply plugin: 'com.google.firebase.crashlytics'

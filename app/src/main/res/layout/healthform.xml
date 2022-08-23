@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--Header-->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+
+        android:background="@drawable/gradient"
+        >
+
+        <TextView
+            android:id="@+id/lblbook"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/Whitecl"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:text="STAFF HEALTH DECLARATION"
+            android:textAllCaps="true"
+            android:fontFamily="@font/raleway_bold_9"
+
+
+            />
+
+        <ImageView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/imgclose"
+            android:gravity="center"
+            android:src="@drawable/ic_close"
+            android:scaleType="fitCenter"
+            android:padding="1dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <!-- Scrollable Content below header and above footer -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header"
+        >
+
+            <androidx.cardview.widget.CardView
+            android:id="@+id/card_month2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:elevation="5dp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="1dp"
+            app:cardCornerRadius="1dp">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_month1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:elevation="1dp"
+            android:innerRadius="0dp"
+            app:cardBackgroundColor="#FFFFFF"
+            android:thicknessRatio="1.9"
+            app:cardCornerRadius="5dp">
+            <LinearLayout
+                android:id="@+id/li1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/lbl1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="3dp"
+                    android:text="1) I have no fever (≥38 °Celcuis or 100 ° Fahrenheit) * "
+                    style="@style/style_mediumboldtext"
+                    />
+                <Spinner
+                    android:id="@+id/sp1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/spinner"
+                    android:layout_marginTop="6dp"
+                    android:spinnerMode="dialog"
+                    android:textSize="13sp"
+                    style="@style/style_mediumboldtext"
+                    />
+
+                <TextView
+                    android:id="@+id/lbl2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="3dp"
+                    android:text="2) I have no Muscle aches, Chills or Shivers * "
+                    style="@style/style_mediumboldtext"
+                    />
+
+
+                <Spinner
+                    android:textSize="12sp"
+                    android:id="@+id/sp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/spinner"
+                    android:layout_marginTop="6dp"
+                    android:spinnerMode="dialog"
+                    style="@style/style_mediumboldtext"
+                    />
+
+                <TextView
+                    android:id="@+id/lbl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="3dp"
+                    android:text="3) I do not have a cough, shortness of breath or breathing difficulty *"
+                    style="@style/style_mediumboldtext"                 />
+
+                <Spinner
+                    android:id="@+id/sp3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/spinner"
+                    android:layout_marginTop="6dp"
+                    android:spinnerMode="dialog"
+                    style="@style/style_mediumboldtext"
+                    />
+
+                <TextView
+                    android:id="@+id/lbl4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="3dp"
+                    android:text="4) I have not been in close contact within the last 14 days with any person who has been diagnosed with any novel Coronavirus (nCov) or listed as a suspect novel Coronavirus (nCov) case * "
+                    style="@style/style_mediumboldtext"
+
+                    />
+                <Spinner
+                    android:textSize="12sp"
+                    android:id="@+id/sp4"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/spinner"
+                    android:layout_marginTop="6dp"
+                    android:spinnerMode="dialog"
+                    />
+
+                <TextView
+                    android:id="@+id/lbl5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="3dp"
+                    android:text="5) I have not been in close contact within the last 14 days with any person who has been issued with Quarantine Order *"
+                    style="@style/style_mediumboldtext"                 />
+
+                <Spinner
+                    android:id="@+id/sp5"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/spinner"
+                    android:layout_marginTop="6dp"
+                    android:spinnerMode="dialog"
+                    style="@style/style_mediumboldtext"
+                    />
+
+                <TextView
+                    android:textSize="13sp"
+                    android:id="@+id/lbl6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="3dp"
+                    android:text="6) I, my family members as well as persons I am living with in the same household, relatives and friends have not travelled during the last 2 weeks to any of the countries affected by novel Coronavirus (nCov) as listed under the Ministry of the Health's Travel Advisory*"
+                    style="@style/style_mediumboldtext"
+                    />
+
+                <Spinner
+                    android:textSize="13sp"
+                    android:id="@+id/sp6"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/spinner"
+                    android:layout_marginTop="6dp"
+                    android:spinnerMode="dialog"
+                    />
+
+                <TextView
+                    android:id="@+id/lbl7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="3dp"
+                    android:text="7) I do not have any family member/relative/friend from any of the countries or from other cities in India who have just visited me or staying with me in the last 14 days *"
+                    style="@style/style_mediumboldtext"                />
+
+                <Spinner
+                    android:id="@+id/sp7"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/spinner"
+                    android:layout_marginTop="6dp"
+                    android:spinnerMode="dialog"
+                    />
+
+                <TextView
+                    android:id="@+id/lbl8"
+                    style="@style/style_mediumboldtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="3dp"
+                    android:text="8) I also hereby declare that after this declaration form is completed and signed by me.In the event that I do not satisfy any of the above clauses, I will IMMEDIATELY contact my immediate Department Head/Superior for follow up action*" />
+
+            <LinearLayout
+                android:id="@+id/li2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/chk"
+
+                    android:layout_marginTop="2dp"/>
+
+                <TextView
+                    android:id="@+id/lbl9"
+                    android:textColor="@color/red"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom ="2dp"
+                    android:text="I Declare all the above to be true and correct (This is an electronically generated form, hence does not require signature)*"
+                    style="@style/style_mediumboldtext"                />
+
+
+            </LinearLayout>
+
+                <EditText
+                    android:id="@+id/txt8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:hint="DATE"
+                    android:maxLength="10"
+                    android:textSize="13dp"
+                    android:inputType="date"
+                    android:fontFamily="@font/raleway_regular_7"
+                    />
+
+            </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+    <LinearLayout android:id="@+id/footer" android:layout_width="fill_parent"
+        android:layout_height="55dp" android:orientation="horizontal"
+        android:focusable="true"  android:background="#ffffff"
+        android:focusableInTouchMode="true"
+        android:layout_alignParentBottom="true" style="@android:style/ButtonBar">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:id="@+id/btnPunchIn"
+            android:layout_alignParentBottom="true"
+
+            android:textColor="@color/Whitecl"
+            android:background="@drawable/gradient"
+            android:text="PUNCH IN"
+            android:textSize="14dp"
+            android:fontFamily="@font/raleway_bold_9"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

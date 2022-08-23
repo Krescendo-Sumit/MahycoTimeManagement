@@ -1,0 +1,7 @@
+#Tue Aug 23 11:06:44 IST 2022
+base.0=E\:\\Mahyco\\live_timemgtapp_jan2022-main\\live_timemgtapp_jan2022-main\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=E\:\\Mahyco\\live_timemgtapp_jan2022-main\\live_timemgtapp_jan2022-main\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex

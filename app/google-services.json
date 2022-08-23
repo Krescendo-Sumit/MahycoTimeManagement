@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "501326858994",
+    "project_id": "time-management-243706",
+    "storage_bucket": "time-management-243706.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501326858994:android:8cd561f8a6f5801c0c9e6b",
+        "android_client_info": {
+          "package_name": "com.mahyco.time.timemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501326858994-7gg4u0q0v2cfgnkodm8g5ts1qh5prjj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuFAcZP6DjpgcWFi-FLBviXgoG1M3QcMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501326858994-7gg4u0q0v2cfgnkodm8g5ts1qh5prjj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

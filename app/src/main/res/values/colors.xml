@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <color name="colorPrimary">#009a4e</color>
+    <color name="colorPrimaryDark">#1B1464</color>
+    <color name="colorAccent">#009a4e</color>
+    <color name="Whitecl">#FFFFFF</color>
+    <color name="grey">#dedede</color>
+    <color name="lightblack">#666666</color>
+    <color name="Black">#000000</color>
+    <color name="spalsh">#2aaac7</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="red">#FF2A34</color>
+
+    <color name="draklightgreen">#475A01</color>
+    <color name="headerAction">#008A00</color>
+    <color name="headerlightgreen">#38ef7d</color>
+    <color name="headerdarkgreen">#11998e</color>
+    <color name="QRCodeWhiteColor">#ffffff</color>
+    <color name="splashheader">#008080</color>
+    <color name="englishgray">#1B1464</color>
+    <color name="yellow">#FFEB3B</color>
+
+</resources>

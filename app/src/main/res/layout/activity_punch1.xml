@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".punch1"
+    android:background="#4CA64C"
+    android:id="@+id/mainlayout">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutLinear">
+
+        <ImageView
+            android:id="@+id/signoutBtn"
+            android:layout_toRightOf="@+id/taglogo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/signout"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/icon"
+            android:layout_marginTop="20dp"
+            android:id="@+id/taglogo"/>
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutLinear"
+        android:id="@+id/textlayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/txtDate"
+            android:text=""
+            android:textColor="@color/Whitecl"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/txtDay"
+            android:text=""
+            android:textColor="@color/Whitecl"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/txtTime"
+            android:text=""
+            android:textColor="@color/Whitecl"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/txtCordinate"
+            android:text=""
+            android:textColor="@color/Whitecl"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/txtTime"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/txtLocation"
+            android:text=""
+            android:layout_below="@id/txtCordinate"
+            android:textColor="@color/Whitecl"
+            android:layout_marginTop="0dp"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAccuracyTxt"
+            android:text="Accurate upto:"
+            android:layout_below="@id/txtLocation"
+            android:textColor="@color/Whitecl"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAccuracy"
+            android:layout_below="@id/txtLocation"
+            android:text="dsdsd"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/txtAccuracyTxt"
+            android:textColor="@color/Whitecl"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            android:textStyle="bold"/>
+
+
+
+        <ImageView
+            android:id="@+id/gpsBtn"
+            android:layout_toRightOf="@+id/txtAccuracy"
+            android:layout_width="30dp"
+            android:layout_below="@id/txtLocation"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_gps_fixed_indicator"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textlayout"
+        android:layout_marginTop="60dp">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnPunch"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="0dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Punch IN"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnPunchOUT"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="0dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtTextOUT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Punch OUT"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"/>
+            </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="100dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="1dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Last Activity"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/txtDate1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/txtInfo"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/txtTime1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:layout_below="@+id/txtDate1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:id="@+id/txtFlag1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:layout_below="@id/txtTime1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
